@@ -1,0 +1,45 @@
+$ agent.py   (CRASH_AT=-)
+код возврата: 0
+--- stdout ---
+Статус: waiting_approval. Нужно решение оператора: --approve или --reject.
+
+--- stderr ---
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+
+
+$ agent.py --approve  (CRASH_AT=after_booking:V-HUB)
+код возврата: 1
+--- stdout ---
+Запуск оборван (UserError: Error running tool book_venue: Connection closed). Статус running, повторите запуск.
+
+--- stderr ---
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+[сбой] процесс прерван в точке after_booking:V-HUB
+MCP tool returned an error.
+
+
+$ agent.py   (CRASH_AT=-)
+код возврата: 0
+--- stdout ---
+Статус: done. Перенос завершён.
+
+--- stderr ---
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+
+

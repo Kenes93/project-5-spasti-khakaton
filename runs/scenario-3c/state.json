@@ -1,0 +1,10 @@
+{
+  "status": "new",
+  "attempts": 0,
+  "decision": null,
+  "selected_venue": null,
+  "skill_activated": false,
+  "bulletin": null,
+  "checkpoint": null,
+  "token_usage": {}
+}

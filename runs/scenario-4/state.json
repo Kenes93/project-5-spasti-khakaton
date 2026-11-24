@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "attempts": 2,
+  "decision": "approve",
+  "selected_venue": "V-HUB",
+  "skill_activated": true,
+  "bulletin": null,
+  "checkpoint": "venue_refused",
+  "token_usage": {
+    "requests": 2,
+    "input_tokens": 5854,
+    "output_tokens": 90
+  }
+}

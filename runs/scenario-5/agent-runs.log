@@ -1,0 +1,30 @@
+$ agent.py   (CRASH_AT=-)
+код возврата: 0
+--- stdout ---
+Статус: waiting_approval. Нужно решение оператора: --approve или --reject.
+
+--- stderr ---
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+
+
+$ agent.py --approve  (CRASH_AT=-)
+код возврата: 0
+--- stdout ---
+Статус: done. Перенос завершён.
+
+--- stderr ---
+Processing request of type ListToolsRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+Processing request of type CallToolRequest
+
+
