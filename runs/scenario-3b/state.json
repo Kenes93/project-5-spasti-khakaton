@@ -4,11 +4,11 @@
   "decision": "approve",
   "selected_venue": "V-HUB",
   "skill_activated": false,
-  "bulletin": "Хакатон перенесён в QazTech Hub и забронирован за 350 000 KZT. Слоты назначены всем командам, уведомления отправлены капитанам и менторам.\n\nОсталось: ничего.",
+  "bulletin": "Хакатон перенесён и забронирован в QazTech Hub за 350 000 KZT. Слоты назначены всем 6 командам. Уведомления отправлены капитанам и обоим менторам.\n\nОсталось: уведомить кейтеринг о новой площадке.",
   "checkpoint": "decided",
   "token_usage": {
     "requests": 5,
-    "input_tokens": 17240,
-    "output_tokens": 1148
+    "input_tokens": 17274,
+    "output_tokens": 1196
   }
 }

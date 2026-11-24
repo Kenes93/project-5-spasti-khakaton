@@ -8,7 +8,7 @@
   "checkpoint": "decided",
   "token_usage": {
     "requests": 5,
-    "input_tokens": 20173,
-    "output_tokens": 1498
+    "input_tokens": 20143,
+    "output_tokens": 1478
   }
 }

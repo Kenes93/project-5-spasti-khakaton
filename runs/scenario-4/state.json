@@ -8,7 +8,7 @@
   "checkpoint": "venue_refused",
   "token_usage": {
     "requests": 2,
-    "input_tokens": 5854,
+    "input_tokens": 5850,
     "output_tokens": 90
   }
 }
